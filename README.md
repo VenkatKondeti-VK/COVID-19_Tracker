@@ -1,6 +1,7 @@
 # COVID-19_Tracker
 A Web Application created using React.js and disease.sh API.
 A Simple Tracker which tracks COVID-19 cases all over the world.
+I have used an Open Disease Data API which fetches information about covid-19 cases throughout the world.
 
 # Stack Used
 HTML, CSS, JavaScript, React.js
