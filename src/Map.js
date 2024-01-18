@@ -33,10 +33,16 @@ function Map({countries,casesType,center,zoom}) {
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
         
+        <Marker 
+          position={center}
+        >
+        </Marker>
+
         {countries.map(country => {
 
           return (
             <Circle
+              key={country.country}
               center={[country.countryInfo.lat, country.countryInfo.long]}
               fillOpacity={0.4}
               pathOptions={{
